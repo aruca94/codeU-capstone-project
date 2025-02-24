@@ -80,13 +80,12 @@ Prepare the project for final presentation or submission to evaluators.
 
 # Milestones and Targeted Due Dates:
 
- Week 1 - Github repo created w/ README.md file completed, Basic site structure/ file structure created and all flexboxes/cssgrids and images in place, bulk of text in place, and begin working on JavaScript functionality.
+ Week 1 - Github repo created w/ README.md file completed, setup Node and Express and any dependencies that will be needed, Basic site structure/ file structure created and all flexboxes/cssgrids and images in place, bulk of text in place,
+ and begin working on API and integrating it
 
-Week 2 - By the end of the week: HTML/CSS complete and fully responsive and semantic, Javascript is beginning to take shape with all HTML elements
-being defined and ready to have user input inputted to them and most of the functionality in place and working, and the third-party API being worked on.
+Week 2 - By the end of the week: HTML/CSS complete and fully responsive and semantic, API is working, Javascript is beginning to take shape with all HTML elements
+being defined and ready to have user input inputted to them
 
-Week 3 - Continue to work on JavaScript functionality, set up my node server and get all dependencies downloaded and in the correct file, and make sure all API'S used are working as intende
+Week 3 - Finish JavaScript and all JavaScript functionality, double check API performance and that it is working as intended, and begin any testing that will be needed.
 
-Week 4 - Finish Javascript, ensure node is working as intended, double check API performance and that it is working as intended, and test as much as possible for compatability on different operating systems and internet browsers
-
-Week 5 - Refactor code as possible, prep for submission, make sure code is as clean as possible and everything is working as intended across all platforms/browsers and is visually appealing.
+Week 4 - Refactor code as possible, prep for submission, make sure code is as clean as possible and everything is working as intended across all platforms/browsers
