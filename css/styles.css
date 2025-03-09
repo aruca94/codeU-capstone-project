@@ -1,0 +1,76 @@
+@import url("/css/reset.css");
+
+
+.search {
+    flex-grow: 1;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.search input[type="text"] {
+    padding: 6px;
+    /* margin-right: 10px; */
+    /* font-size: 17px; */
+}
+
+input[type="text"]:focus {
+    outline: none;
+}
+
+.search button {
+    padding: .375rem .625rem;
+    background: white;
+    color: green;
+    border: none;
+    cursor: pointer;
+    border-radius: .25rem;
+}
+
+.search button i {
+    font-size: 1.125rem;
+}
+
+.search button:hover {
+    background: darkgreen;
+    color: white;
+}
+
+.form {
+    border-bottom: 2px solid black;
+    margin-right: 1.5rem;
+}
+
+/* Responsive styling */
+@media screen and (max-width: 600px) {
+    /* #navlist {
+        flex-direction: column;
+        align-items: flex-start;
+    } */
+
+    .search {
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: .625rem;
+        padding-left: .625rem;
+    }
+
+    .search input[type="text"] {
+        margin-right: .625rem;
+        width: auto;
+    }
+
+    .search button {
+        padding: .25rem .5rem;
+    }
+
+    .search button i {
+        font-size: .875rem;
+    }
+
+    /* #navlist a {
+        width: 100%;
+        text-align: left;
+        padding: 10px 20px;
+    } */
+}
